@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="calci.css">
+</head>
+<body>
+	
+	<header><h1>CALCULATOR</h1></header>
+	<section id="calci">
+	<div class="box">
+	<input type="text" class="displaydesign" id="final_output"><br/>
+	
+	<button type="button" class="buttondesign" onclick="c()">C</button>
+	<button type="button" class="buttondesign" onclick="ce()">CE</button>
+	<button type="button" class="buttondesign" id="percent" onclick="percent()">%</button>
+	<button type="button" class="buttondesign" id="divide" onclick="display('/')">/</button></br>
+	<button type="button" class="buttondesign" onclick="display('7')">7</button>
+	<button type="button" class="buttondesign" onclick="display('8')">8</button>
+	<button type="button" class="buttondesign" onclick="display('9')">9</button>
+	<button type="button" class="buttondesign" id="add" onclick="display('+')">+</button><br/>
+	<button type="button" class="buttondesign" onclick="display('4')">4</button>
+	<button type="button" class="buttondesign" onclick="display('5')">5</button>
+	<button type="button" class="buttondesign" onclick="display('6')">6</button>
+	<button type="button" class="buttondesign" id="subtract" onclick="display('-')">-</button><br/>
+	<button type="button" class="buttondesign" onclick="display('1')">1</button>
+	<button type="button" class="buttondesign" onclick="display('2')">2</button>
+	<button type="button" class="buttondesign" onclick="display('3')">3</button>
+	<button type="button" class="buttondesign" id="mul" onclick="display('*')">*</button><br/>
+	<button type="button" class="buttondesign" onclick="display('0')">0</button>
+	<button type="button" class="buttondesign" onclick="display('00')">00</button>
+	<button type="button" class="buttondesign" onclick="display('.')">.</button>
+	
+	<button type="button" class="buttondesign" id="equal" onclick="solve()">=</button>
+	</div>
+</section>
+	<script src="calci.js"></script>
+</body>
+</html>

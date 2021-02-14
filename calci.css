@@ -1,0 +1,73 @@
+body{
+        background-color:#0e0909;
+        text-align: center;        
+}
+h1{
+    color:rgb(192, 57, 147);
+    font-size: 40px;
+    text-shadow: rgb(#64d5c6);
+    font-style: Arial;
+    
+}
+.box
+{
+    margin: auto;
+    height:550px;
+    width:335px;
+    background:linear-gradient(to bottom,rgb(174, 84, 201), rgba(64, 57, 71, 0.3));
+    border-radius:20px;
+    align-items: center;
+    
+    
+}
+.displaydesign
+{
+    background-color: transparent;
+    height:110px;
+    width:310px;
+    border-top-left-radius:14px;
+    border-top-right-radius:14px;
+    text-align: right;
+    font-size:30px;
+    font-weight:700;
+    color:black;
+    font-style: italic;
+    border: none;
+    
+}
+.buttondesign
+{
+    width:60px;
+    height:60px;
+    font-size:25px;
+    font-weight:600;
+    color:#cf2222;
+    border:none;
+    cursor:pointer;
+    margin:22px 2px 1px 15px;
+    outline:none;
+    font-style: oblique;
+    text-align: center;
+    
+}
+.buttondesign:hover{
+    background-color:rgba(100, 73, 86, 0.342);
+}
+#divide{
+    background-color: rgb(235, 27, 166)
+}
+#percent{
+    background-color: rgb(93, 162, 219)
+}
+#add{
+    background-color: rgb(103, 230, 99)
+}
+#subtract{
+    background-color: rgb(189, 102, 99)
+}
+#equal{
+    background-color: rgb(221, 226, 233)
+}
+#mul{
+    background-color: rgb(171, 179, 53)
+}
